@@ -6,3 +6,5 @@ node_modules
 .vscode-test
 .DS_Store
 data-volume
+.eslintrc.yml
+.prettierrc.yml
