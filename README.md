@@ -1,4 +1,4 @@
-# QuickstartDB
+# Quick Stash
 
 ##### Quickly spin up a container and fill it with random data for practice or fun. Like grabbing a database from a pocket dimension.
 
