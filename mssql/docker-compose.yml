@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+    db:
+        container_name: mssql_database
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        ports:
+            - '1433:1433'
+        volumes:
+            - ./data-volume:/var/opt/mssql/data
+        environment:
+            SA_PASSWORD: 'Strongpass2!'
+            ACCEPT_EULA: 'Y'

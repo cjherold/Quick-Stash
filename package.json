@@ -1,0 +1,22 @@
+{
+  "name": "quick-stash",
+  "version": "1.0.0",
+  "description": "Create a database out of thin air.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjherold/Quick-Stash.git"
+  },
+  "author": "Christopher Herold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjherold/Quick-Stash/issues"
+  },
+  "homepage": "https://github.com/cjherold/Quick-Stash#readme",
+  "dependencies": {
+    "mssql": "^7.3.0"
+  }
+}
